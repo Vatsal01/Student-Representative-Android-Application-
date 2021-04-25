@@ -33,17 +33,17 @@ public class MainActivity extends AppCompatActivity {
 
         //List of Students
 
-        dataArray.add(new Model("Michał Cywka", "Internet Engineering","Degree - II, Year - II, Semester - 3"));
-        dataArray.add(new Model("Józef Koszel", "Teleinformatics","Degree - I, Year - II, Semester - 2"));
-        dataArray.add(new Model("Mateusz Bajorek", "Computer Systems and Networks","Degree - I, Year - III, Semester - 6"));
-        dataArray.add(new Model("Błażej Ułanowicz", "Graphics and Multimedia Systems","Degree - I, Year - III, Semester - 6"));
-        dataArray.add(new Model("Kamil Hulewicz",  "Information technology systems in medicine","Degree - II, Year - II, Semester - 3"));
-        dataArray.add(new Model("Weronika Borek", "Advanced Informatics and Control","Degree - I, Year - III, Semester - 6"));
-        dataArray.add(new Model("Emilia Szymańska", "Robotics (ARR)", "Degree - I, Year - I, Semester - 2"));
-        dataArray.add(new Model("Andrzej Gębura", "Electronics","Degree - II, Year - II, Semester - 3"));
-        dataArray.add(new Model("Jakub Filipowicz", "Robotics","Degree - I, Year - II, Semester - 4"));
-        dataArray.add(new Model("Marcelina Bielecka", "Telecommunications (TEL)","Degree - I, Year - III, Semester - 6"));
-        dataArray.add(new Model( "Piotr Osiński", "ICT networks (TSI)","Degree - I, Year - III, Semester - 6"));
+        dataArray.add(new Model("John Smith", "Internet Engineering","Degree - II, Year - II, Semester - 3"));
+        dataArray.add(new Model("John Smith", "Teleinformatics","Degree - I, Year - II, Semester - 2"));
+        dataArray.add(new Model("John Smith", "Computer Systems and Networks","Degree - I, Year - III, Semester - 6"));
+        dataArray.add(new Model("John Smith", "Graphics and Multimedia Systems","Degree - I, Year - III, Semester - 6"));
+        dataArray.add(new Model("John Smith",  "Information technology systems in medicine","Degree - II, Year - II, Semester - 3"));
+        dataArray.add(new Model("John Smith", "Advanced Informatics and Control","Degree - I, Year - III, Semester - 6"));
+        dataArray.add(new Model("John Smith", "Robotics (ARR)", "Degree - I, Year - I, Semester - 2"));
+        dataArray.add(new Model("John Smith", "Electronics","Degree - II, Year - II, Semester - 3"));
+        dataArray.add(new Model("John Smith", "Robotics","Degree - I, Year - II, Semester - 4"));
+        dataArray.add(new Model("John Smith", "Telecommunications (TEL)","Degree - I, Year - III, Semester - 6"));
+        dataArray.add(new Model("John Smith", "ICT networks (TSI)","Degree - I, Year - III, Semester - 6"));
 
         adapter = new RecyclerAdapter(dataArray,this);
         recyclerView.setAdapter(adapter);
